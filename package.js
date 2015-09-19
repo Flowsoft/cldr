@@ -1,13 +1,13 @@
 Package.describe({
   name: 'flowsoft:cldr',
-  version: '3.0.0_3',
-  summary: 'CLDR package for node-cldr',
+  version: '3.2.0_1',
+  summary: 'Package for node-cldr node package',
   git: 'https://github.com/Flowsoft/cldr',
   documentation: 'README.md'
 });
 
 Npm.depends({
-  'cldr': '3.0.0'
+  'cldr': '3.2.0'
 });
 
 Package.onUse(function(api) {
